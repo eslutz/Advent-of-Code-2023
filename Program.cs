@@ -5,7 +5,7 @@ namespace Advent_of_Code_2023;
 
 class Program
 {
-    private const int _days = 3;
+    private const int _days = 4;
 	private const string _heading = "Advent of Code - 2023";
 	private const int _headerWidth = 45;
 	private static readonly int _whiteSpaceLength =	(_headerWidth - _heading.Length - 4) / 2;
@@ -40,6 +40,7 @@ class Program
 					new Day1(),
 					new Day2(),
 					new Day3(),
+                    new Day4()
 				};
 				var runAll = menuSelection == _days + 1;
 
